@@ -54,7 +54,7 @@ java -cp ./lib/json-20230227.jar:./src GeneradorJSON
 ```
 ## 💡 En Windows, reemplazá : por ; en el classpath.
 
-##📄 Generar la documentación Javadoc
+## 📄 Generar la documentación Javadoc
 - Para generar la documentación Javadoc (con soporte para la biblioteca org.json):
 
 ```"/usr/lib64/jvm/java-21-openjdk-21/bin/javadoc" \
@@ -66,8 +66,8 @@ src/Playlist.java
 ```
 ✅ Esto generará una carpeta javadoc/ dentro de src/ con la documentación navegable.
 
-📬 Contacto
-📧 Nicolás Butterfield – nicobutter@gmail.com
-Siempre listo para compilar ideas y ejecutar soluciones.
+## 📬 Contacto
+### 📧 Nicolás Butterfield – nicobutter@gmail.com
+### Siempre listo para compilar ideas y ejecutar soluciones.
 
 
