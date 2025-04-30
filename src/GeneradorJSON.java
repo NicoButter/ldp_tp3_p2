@@ -49,7 +49,7 @@
      public static void main(String[] args) {
          // Datos de ejemplo
          String nombre = "Estudio con mates";
-         String creador = "Nico el crack";
+         String creador = "Nicolas Butterfield";
          List<String> canciones = Arrays.asList(
                  "La cumbia del sistema",
                  "Beethoven - Für Elise",
@@ -109,15 +109,25 @@
       *
       * @param ruta Ruta del archivo a leer.
       */
-     public static void mostrarContenidoArchivo(String ruta) {
-         try {
-             String contenido = Files.readString(Paths.get(ruta));
-             System.out.println("\nContenido del archivo JSON:");
-             System.out.println(contenido);
-         } catch (IOException e) {
-             System.err.println("Error al leer el archivo JSON:");
-             e.printStackTrace();
-         }
-     }
+      public static void mostrarContenidoArchivo(String ruta) {
+        try {
+            String contenido = Files.readString(Paths.get(ruta));
+    
+            System.out.println("\n==================== PLAYLIST GENERADA ====================");
+            System.out.println("🎵  Archivo JSON generado con éxito");
+            System.out.println("📁  Ruta: " + ruta);
+            System.out.println("🕺  Formato: JSON con indentación de 4 espacios");
+            System.out.println("===========================================================\n");
+    
+            System.out.println(contenido);
+    
+            System.out.println("\n===========================================================");
+            System.out.println("💾  Fin del contenido del archivo");
+            System.out.println("===========================================================\n");
+        } catch (IOException e) {
+            System.err.println("❌ Error al leer el archivo JSON:");
+            e.printStackTrace();
+        }
+    }
  }
  
