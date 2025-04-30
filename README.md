@@ -18,19 +18,17 @@ El programa permite:
 ---
 
 ## 📂 Estructura del proyecto
-ldp_tp3_p2/ 
-├── lib/ 
-        # Librerías externas 
-        │   # Biblioteca org.json
-        └── json-20230227.jar  
-    ├── src/      
-        │   #Código fuente y documentación
-        ├── GeneradorJSON.java # Clase principal 
-        │ 
-        ├── Playlist.java # Clase auxiliar (opcional) 
-        │ 
-        └── javadoc/ # Carpeta generada con Javadoc 
-    └── README.md # Este archivo
+
+```
+ldp_tp3_p2/
+├── lib/                      # Librerías externas
+│   └── json-20230227.jar     # Biblioteca org.json
+├── src/                      # Código fuente y documentación
+│   ├── GeneradorJSON.java    # Clase principal
+│   ├── Playlist.java         # Clase auxiliar (opcional)
+│   └── javadoc/              # Carpeta generada con Javadoc
+└── README.md                 # Este archivo
+```
 
 ---
 
