@@ -32,3 +32,29 @@ ldp_tp3_p2/
         └── javadoc/ # Carpeta generada con Javadoc 
     └── README.md # Este archivo
 
+---
+
+## 🧩 Requisitos
+
+- Java JDK 21 (o compatible)
+- `json-20230227.jar` [descargable desde el repositorio oficial de org.json](https://repo1.maven.org/maven2/org/json/json/)
+- SO recomendado: **openSUSE Tumbleweed** 😎 lo mejor
+
+---
+
+## 🧪 Ejecución del programa
+
+### 1. Asegurarse de tener compilado el código:
+
+```bash
+javac -cp ./lib/json-20230227.jar ./src/*.java
+```
+### 2 Ejecutar la clase principal:
+
+```
+java -cp ./lib/json-20230227.jar:./src GeneradorJSON
+```
+## 💡 En Windows, reemplazá : por ; en el classpath.
+
+##📄 Generar la documentación Javadoc
+- Para generar la documentación Javadoc (con soporte para la biblioteca org.json):
