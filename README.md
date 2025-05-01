@@ -66,6 +66,10 @@ src/Playlist.java
 ```
 ✅ Esto generará una carpeta javadoc/ dentro de src/ con la documentación navegable.
 
+
+## 🏁 Licencia
+### Este trabajo es parte del ciclo lectivo 2025 de la UNPA-UARG y su uso está destinado con fines educativos y académicos.
+
 ## 📬 Contacto
 ### 📧 Nicolás Butterfield – nicobutter@gmail.com
 ### Siempre listo para compilar ideas y ejecutar soluciones.
